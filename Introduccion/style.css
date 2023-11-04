@@ -1,0 +1,54 @@
+.background-all { 
+    background-image: url("../images/paz-tranquilidad.jpg");
+    background-repeat: repeat;
+}
+
+.background-vertical { 
+    background-image: url("../images/paz-tranquilidad.jpg");
+    background-repeat: repeat-y;
+}
+
+.background-fixed {
+    background-image: url("../images/paz.jpg");    
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header ul{
+color: blue;
+}
+
+.main-lists{
+color: darkgreen;
+}
+
+footer ul li {
+color: cadetblue;
+}
+
+.item-green {
+    color: green;
+}
+
+.item-red {
+color: red;
+}
+
+#h1-pag1{
+    color: blueviolet;
+}
+#h1-pag2{
+    color: crimson;
+}
+#main-pag1 {
+    background-color: cornflowerblue;
+}
+#main-pag2 {
+    background-color: aquamarine;
+}
+#footer-pag1{
+    color: crimson;
+}
+#footer-pag2{
+    color: olivedrab;
+}
