@@ -1,0 +1,14 @@
+/*No visitado*/
+a:link{
+color: blue;
+}
+
+/*Visitado*/
+a:visited{
+    color: purple;
+    }
+
+/*Cuando el mouse pasa sobre el link*/
+a:hover{
+    color: green;
+    }    
