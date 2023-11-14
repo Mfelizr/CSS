@@ -1,0 +1,84 @@
+/* 1. Crea un div con un ancho de 200px y un alto de 100px.*/
+#id-div-ej1{
+    width: 200px;
+    height: 100px;
+    border: 1px rosybrown solid;    
+}
+/*2. Establece un margen de 20px en todos los lados de un párrafo.*/
+#id-p-ej2{
+    margin: 20px;
+    border: 1px black solid;
+}
+/*3. Ajusta el relleno de un encabezado h1 a 10px en todos los lados.*/
+#id-h1-ej3{
+    padding: 10px;
+    border: 1px black solid;
+}
+/* 4. Haz que un enlace tenga un borde de 2px sólido de color rojo. */
+#id-a-ej4{
+border: 2px red solid;
+}
+/* 5. Crea un botón con un ancho de 150px y un margen derecho de 10px. */
+#id-button-ej5{
+    width: 150px;
+    margin-right: 10px;
+}
+/* 6. Establece el ancho del borde de un elemento div a 3px. */
+#id-div-ej6{
+    border: 3px blue solid;
+}
+/* 7. Crea una lista desordenada y establece un relleno de 15px en todos los elementos de la lista. */
+#id-ul-ej7 li{
+    padding: 15px;
+}
+/* 8. Haz que un párrafo tenga un margen inferior de 30px y un margen izquierdo de 10px. */
+#id-p-ej8{
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+/* 9. Ajusta el relleno de un div para que sea 20px en la parte superior y 10px en la parte inferior, con 5px de relleno izquierdo y derecho.*/
+#id-div-ej9{
+    padding: 20px, 5px, 10px,5px;
+    border: 1px royalblue solid;
+}
+/* 10. Crea un cuadro con un ancho de 300px y un alto de 200px, y asegúrate de que el contenido tenga un margen de 25px en todos los lados. */
+#id-sec-ej10{
+    width: 300px;
+    height: 200;
+    margin: 25px;
+}
+/* 11. Crea una caja con un ancho de 250px y un alto de 150px. Establece un borde de 1px sólido de color negro y un
+relleno de 20px en todos los lados. */
+#id-div-ej11{
+    width: 250px;
+    height: 150px;
+    border: 1px black solid;
+    padding: 20px;
+}
+/* 12. Crea un elemento de lista con un margen derecho de 15px y un relleno de 10px en todos los lados. */
+#id-ul-ej12{
+    margin-right: 15px;
+    padding: 10px;
+}
+/* 13. Haz que un párrafo tenga un ancho máximo de 400px y un margen de 0 en todos los lados. */
+#id-p-ej13 {
+    max-width: 400px;
+    margin: 0px;
+}
+/* 14. Establece un borde de 2px sólido de color verde en un elemento de imagen. */
+#id-img-ej14{
+    border: 2px green solid  ;
+}
+/* 15. Crea un botón con un ancho de 120px, un margen superior de 10px y un relleno de 5px en todos los lados. */ 
+#id-button-ej15{
+    width: 120;
+    margin-top: 10;
+    padding: 5px;
+}
+
+
+
+
+
+
+
