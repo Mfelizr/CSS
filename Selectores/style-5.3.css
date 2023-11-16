@@ -1,0 +1,79 @@
+/* 1. Selecciona todos los párrafos en un documento HTML y aplica un fondo de color amarillo a ellos. */
+p{
+background-color: yellow;
+}
+/* 2. Selecciona todos los elementos con la clase "special" y cambia su tamaño de fuente a 24px. */
+.special {
+    font-size: 24px;
+}
+/* 3. Selecciona todos los elementos con la clase " highlight " que sean descendientes de un elemento <div> y
+cambia su color de fondo a verde. */
+div .highligh{
+    background-color: green;
+}
+/* 4. Selecciona todos los elementos que tengan un atributo href y cambia su color de texto a azul. */
+*[href] {
+    color: darkblue;
+}
+/* 5. Selecciona todos los elementos cuyo atributo src termine con " .jpg " y aplica un borde sólido de 2px de color
+rojo a ellos. */
+*[src$=".jpg"] {
+    border: 2px solid red;
+}
+/* 6. Selecciona todos los enlaces en un documento HTML y aplica un estilo de color de fondo cuando el cursor está
+sobre ellos. */
+a:hover {
+    background-color: aquamarine;
+}
+/* 7. Selecciona todos los párrafos en un documento HTML y aplica un estilo diferente a la primera línea de cada
+párrafo. */
+p::first-line{
+    color: blueviolet;
+    font-style: italic;
+}
+/* 8. Selecciona el primer elemento hijo de una lista y cambia su estilo de fuente a cursiva. */
+ul li:first-child{
+     font-style: italic;
+}
+/* 9. Selecciona todos los elementos input de tipo text en un formulario y aplica un estilo de borde de color azul
+cuando están enfocados. */
+input[type="text"]:focus{
+    border-color: 2px solid blue;
+    background-color: bisque;     
+}
+/* 10. Selecciona todos los elementos de la clase " warning " y agrega un icono de advertencia antes del contenido. (<a href="https://www.flaticon.es/iconos-gratis/advertencia" title="advertencia iconos">Advertencia iconos creados por Freepik - Flaticon</a>)*/
+.warning::before{
+    content: "\26A0";
+    size: 20px;    
+}
+/* 11. Selecciona todos los elementos <p> que son el último hijo de su contenedor y cambia su estilo de color de fondo
+a amarillo. */
+.ejercicio11 p{
+    background-color: white;    
+}
+.ejercicio11 p::first-line{    
+    font-style: normal;
+    color: black;    
+}
+.ejercicio11 p:last-child{    
+    background-color: yellow;
+}
+/*12. Selecciona todos los elementos de la clase "note" y agrega un icono de nota después del contenido.*/
+.note::after{    
+    size: 20px;
+    content: "\1F5D2";    
+}
+
+/* 13. Selecciona todos los enlaces visitados en un documento HTML y cambia su estilo de color de texto a gris. */
+a:visited {
+    color: grey;
+}
+/* 14. Selecciona todos los elementos con la clase " quote " y aplica un estilo diferente a la primera línea de cada 
+párrafo utilizando.*/
+.quote::first-line {
+    background-color: bisque;
+}
+/* 15. Selecciona todos los elementos <li> que son hijos impares de una lista y cambia su estilo de fuente a negrita. */
+ol li:nth-child(odd){
+    font-weight: bold;
+}

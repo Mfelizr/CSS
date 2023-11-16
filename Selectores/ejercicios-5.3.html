@@ -1,0 +1,122 @@
+<!-- 1. Selecciona todos los párrafos en un documento HTML y aplica un fondo de color amarillo a ellos. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 5.3 Selectores</title>
+    <link rel="stylesheet" href="style-5.3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Ejercicios 5.3 CSS de Selectores</h1>
+    <hr>
+        
+    <h3>1. Selecciona todos los párrafos en un documento HTML y aplica un fondo de color amarillo a ellos.</h3>
+    <br>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis quam dignissimos cupiditate, consequuntur mollitia corporis veritatis ullam ducimus quod laudantium ab ipsam quos nostrum expedita! Aliquid inventore asperiores ipsa sunt? A, itaque. Aut saepe natus cupiditate odio minima fugiat magnam quos aperiam, ut magni. Ipsam fuga sit odit consequatur iure!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos minus quasi voluptatibus magni eius. Nostrum inventore nesciunt nobis reprehenderit sequi pariatur? Fugiat quos ducimus sed. Quasi deleniti dolore dolorem! Ullam quisquam alias deserunt vero voluptates illum nisi quasi consectetur accusantium, error, recusandae autem vitae magni commodi nostrum voluptatibus optio vel non repellendus dolores harum mollitia ipsam inventore saepe? Aut id, molestias corporis repudiandae eveniet est eius unde voluptatem saepe quo quas eligendi sit voluptas. Iste, ad commodi earum reprehenderit praesentium nulla cum, dolorum saepe voluptatum magnam explicabo? Reprehenderit, officia praesentium ipsa reiciendis expedita sit soluta quidem quas maiores repellendus commodi.</p>
+    <hr>
+    
+    <h3>2. Selecciona todos los elementos con la clase "special" y cambia su tamaño de fuente a 24px.</h3>
+    <span class="special">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ab.</span><br>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nostrum id voluptates tempore facilis tenetur omnis ducimus dolores voluptate excepturi!</span><br>
+    <hr>
+    
+    <h3>3. Selecciona todos los elementos con la clase " highlight " que sean descendientes de un elemento div y cambia su color de fondo a verde.</h3>
+    <div>
+        <span class="highligh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, eaque.</span> <br>
+    </div>
+        <p class="highligh">Elemento con clase highligh fuera del Div.</p>
+    <hr>
+
+    <h3> 4. Selecciona todos los elementos que tengan un atributo href y cambia su color de texto a azul (cambiado a darkblue).</h3>
+        <a href="https://www.conmiviaje.com">Portal de viajes</a>        
+    <hr>
+
+    <h3>5. Selecciona todos los elementos cuyo atributo src termine con " .jpg " y aplica un borde sólido de 2px de color rojo a ellos.</h3>
+        <img src="../images/paz-tranquilidad.jpg" alt="Imagen de paz">
+    <hr>
+
+    <h3>6. Selecciona todos los enlaces en un documento HTML y aplica un estilo de color de fondo cuando el cursor está sobre ellos.</h3>
+        <a href="https://www.w3schools.com">Guía de Programación</a> <br>       
+        <a href="https://developer.mozilla.org/es/docs/Learn/CSS">Guía de CSS</a>        
+    <hr>
+
+    <h3>7. Selecciona todos los párrafos en un documento HTML y aplica un estilo diferente a la primera línea de cada párrafo.</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis quam dignissimos cupiditate, consequuntur mollitia corporis veritatis ullam ducimus quod laudantium ab ipsam quos nostrum expedita! Aliquid inventore asperiores ipsa sunt? A, itaque. Aut saepe natus cupiditate odio minima fugiat magnam quos aperiam, ut magni. Ipsam fuga sit odit consequatur iure!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos minus quasi voluptatibus magni eius. Nostrum inventore nesciunt nobis reprehenderit sequi pariatur? Fugiat quos ducimus sed. Quasi deleniti dolore dolorem! Ullam quisquam alias deserunt vero voluptates illum nisi quasi consectetur accusantium, error, recusandae autem vitae magni commodi nostrum voluptatibus optio vel non repellendus dolores harum mollitia ipsam inventore saepe? Aut id, molestias corporis repudiandae eveniet est eius unde voluptatem saepe quo quas eligendi sit voluptas. Iste, ad commodi earum reprehenderit praesentium nulla cum, dolorum saepe voluptatum magnam explicabo? Reprehenderit, officia praesentium ipsa reiciendis expedita sit soluta quidem quas maiores repellendus commodi.</p>
+    <hr>
+
+    <h3>8. Selecciona el primer elemento hijo de una lista y cambia su estilo de fuente a cursiva.</h3>
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>        
+        <li>Elemento 3</li>
+    </ul>
+    <hr>
+    
+    <h3>9. Selecciona todos los elementos input de tipo text en un formulario y aplica un estilo de borde de color azul cuando están enfocados.</h3>
+    <form action="my-form" method="post">
+        <fieldset>
+            <legend>Cambiando el Focus</legend>
+            <ul>
+                <li>
+                    <label for="idname">Nombre*:</label>
+                    <input type="text" name="name" id="idname" required>
+                </li>
+                <li>
+                <label for="idcity">Ciudad:</label>
+                    <input type="text" name="city" id="idcity">
+                </li>
+                <li>
+                    <label for="idphone">Phone number:</label>
+                    <input type="number" name="phone" id="idphone">
+                </li>
+                <label for="idenviar">* - required fields</label>
+                <input type="submit" name="enviar" id="idenviar" value="Enviar">
+            </ul>
+        </fieldset>
+    </form>
+    <hr>
+    
+    <h3>10. Selecciona todos los elementos de la clase " warning " y agrega un icono de advertencia antes del contenido.</h3>
+        <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit deserunt delectus consequuntur dicta quaerat !</span><br>
+        <span class="icon warning"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit deserunt delectus consequuntur dicta quaerat praesentium .</span><br>
+        <span class="icon warning"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit deserunt delectus consequuntur dicta quaerat praesentium .</span><br>
+    <hr>
+    
+    <h3>11. Selecciona todos los elementos "p" que son el último hijo de su contenedor y cambia su estilo de color de fondo a amarillo.</h3>
+        <div class="ejercicio11">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad maiores nam necessitatibus in fuga officiis maxime totam voluptatem quisquam quas.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem accusantium, fugiat ipsum, necessitatibus quam nobis tenetur, aspernatur nam quia laboriosam ducimus excepturi deleniti magnam voluptates explicabo sunt molestiae alias esse harum quos unde cum sint minus! Expedita repudiandae aliquid maxime, optio repellendus quam perspiciatis fugit, dolorem, a reiciendis possimus nobis.</p>    
+        </div>
+    <hr>
+    
+    <h3> 12. Selecciona todos los elementos de la clase "note" y agrega un icono de nota después del contenido.</h3>
+        <span class="note">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit deserunt delectus consequuntur dicta quaerat praesentium atque maiores sed accusamus veniam voluptate, labore dolorem nemo itaque repudiandae quia aperiam architecto dolorum dolore vero ad perspiciatis! Provident eius dicta, aliquam repudiandae esse inventore! Laborum omnis aperiam, saepe ducimus totam debitis iste accusamus!</span>
+    <hr>
+        
+    <h3>13. Selecciona todos los enlaces visitados en un documento HTML y cambia su estilo de color de texto a gris.</h3>
+        <h4>Cambia paginas visitadas</h4>
+        <a href="https://symbl.cc/en/">Simbolos Unicode</a>
+    <br>
+    <hr>
+    
+    <h3>14. Selecciona todos los elementos con la clase " quote " y aplica un estilo diferente a la primera línea de cada párrafo utilizando.</h3>
+        <p class="quote">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In mollitia corrupti aperiam culpa expedita laboriosam. Eius quo non, numquam suscipit adipisci, nemo ullam voluptatibus vero deleniti eum provident dicta eos? Commodi, error vitae necessitatibus corrupti, aut provident dolor adipisci tempore magni labore iure? Rerum tenetur, alias amet incidunt hic delectus nemo saepe. Illo, eveniet ipsam libero nam eum quos eligendi temporibus quam voluptatem ea ducimus sed, nemo, nesciunt porro quibusdam. Minus eius ab dignissimos commodi, perspiciatis incidunt nostrum cumque explicabo, iusto vel alias aspernatur labore temporibus? Dicta corrupti voluptatibus quidem quo deleniti qui obcaecati et, error praesentium recusandae molestias ipsa atque. Beatae quis mollitia nesciunt illo perspiciatis dolorum, reprehenderit possimus! Iusto eum reprehenderit ratione ab mollitia? Sequi odio in accusamus earum neque quibusdam velit consectetur corporis? Tempore saepe fuga voluptatibus quos excepturi error sed necessitatibus non veritatis, obcaecati aliquam corporis modi eaque assumenda dignissimos quo optio dicta sequi eius quis, qui eligendi! Optio quos veniam quod ducimus recusandae dignissimos repellat consequatur aspernatur, facilis sapiente culpa corrupti enim exercitationem a dicta aut facere doloribus libero. Alias eaque dolore blanditiis pariatur eligendi ea suscipit consequuntur similique amet numquam doloremque cupiditate corrupti quibusdam natus voluptatum eveniet facilis, iusto ex, quis culpa fuga placeat.</p>
+    <br>
+    <hr>
+    
+    <h3>15. Selecciona todos los elementos "li" que son hijos impares de una lista y cambia su estilo de fuente a negrita.</h3>
+        <ol>
+            <li>Elemento A</li>
+            <li>Elemento B</li>
+            <li>Elemento C</li>
+            <li>Elemento D</li>
+            <li>Elemento E</li>
+        </ol>
+    
+        
+</body>
+</html>
