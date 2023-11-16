@@ -1,0 +1,103 @@
+#section-ej1{
+    background-color: turquoise;    
+    display: flex;
+    border: 1px turquoise solid;
+    justify-content: space-between;
+    align-items: center;    
+}
+.encabezado{
+    color: white;    
+    text-align: right;  
+    padding-left: 20px;
+}
+.button-ej1{
+    
+    background-color: white;
+    color: turquoise;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#section-ej2{
+    background-color: cornflowerblue;
+    color: white;    
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
+}
+.button-ej2{    
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+h4{
+    margin-top: -15px;
+}
+
+#section-ej3{
+    background-color: violet;
+    height: auto;
+    display: flex;   
+    align-items: center; 
+    justify-content: space-between;
+}
+#div-ej3a{
+    color: darkolivegreen;    
+    margin: 20px;
+    padding: 10px;
+}
+#div-ej3b{    
+    background-color: darkolivegreen;
+    color: violet;
+    width: auto;
+    height: 75%;
+    margin: 30px; 
+    padding: 10px;    
+    border-radius: 8px;    
+}
+
+#li-ej3{
+    list-style-type: none;
+}
+#section-ej4{
+    background-color: maroon;
+    height: auto;
+    display: flex;
+    text-align: center;        
+}
+article{
+   padding: 10px;
+   margin: 10px;       
+} 
+#section-ej5{
+    background-color: darkgreen;
+    height: auto;
+    display: flex;   
+    text-align: left;     
+}
+
+#div-ej5a{
+    display: flex;  
+    background-color: maroon;     
+    justify-content: center;
+}
+#h2-ej5a {    
+    background-color: white;
+    color: maroon; 
+    padding: 10px 25px;
+    border-radius:10px;    
+}
+#div-ej5b{
+    display: flex;  
+    background-color: darkgreen;    
+    justify-content: center;
+}
+#h2-ej5b {    
+    background-color: white;
+    color: darkgreen;    
+    padding: 10px 25px;
+    border-radius:10px;
+}
+        
