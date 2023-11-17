@@ -1,0 +1,112 @@
+/* 1. Crea un contenedor con un ancho de 500 píxeles y un alto de 300 píxeles.*/
+.box{
+    border: 2px darkslategrey solid;
+}
+#div-ej1{
+    width: 500px;
+    height: 300px;    
+    text-align: center;
+}
+/*2. Inserta tres imágenes en una página, cada una con un ancho del 30% del ancho total de la ventana gráfica.*/
+.img-ej2{
+    width: 30vmax;
+}
+/*3. Establece la altura de un encabezado ( <header> ) en 80 píxeles, independientemente del contenido que
+contenga.*/
+#header-ej3{
+    height: 80px;    
+}
+/*4. Crea un cuadrado con un lado del 50% del ancho de su contenedor padre que tiene 200px.*/
+#div-ej4a{
+    width: 200px;
+}
+#div-ej4b{
+    width: 50%;   
+    height: 100px; 
+}
+/*5. Diseña una estructura de columnas donde una columna tenga un ancho fijo de 200 píxeles y las otras ocupen el
+espacio restante equitativamente. */
+#sec-ej5{
+    display: flex ;    
+}
+article:first-child {
+    width:  200px;    
+}
+article{    
+    margin: 5px;
+}
+
+/*em y rem
+1. Tamaño de texto con em
+Crea un contenedor <div> con un tamaño de fuente predeterminado de 16px. Dentro del contenedor, agrega
+tres párrafos de texto. Aplica estilos al primer párrafo para que tenga un tamaño de fuente de 1.5 veces el
+tamaño predeterminado utilizando la unidad em . El segundo párrafo debe tener un tamaño de fuente de 1.2
+veces el tamaño predeterminado, y el tercer párrafo debe tener un tamaño de fuente de 0.8 veces el tamaño
+predeterminado.*/
+.div-ej-em1{
+    font-size: 16px ;
+}
+.div-ej-em1 p:nth-child(1) {
+    font-size: 1.5em;
+}
+.div-ej-em1 p:nth-child(2) {
+    font-size: 1.2em;
+}
+.div-ej-em1 p:nth-child(3) {
+    font-size: 0.8em;
+}
+/*2. Ancho con rem
+Crea tres cajas <div> con anchos relativos al tamaño de fuente predeterminado del documento. La primera caja
+debe tener un ancho de 20rem, la segunda un ancho de 15rem y la tercera un ancho de 10rem. Agrega algún
+contenido dentro de cada caja para visualizar mejor los tamaños.*/
+#div-ej-rem2a{
+    width: 20rem;
+}
+#div-ej-rem2b{
+    width: 15rem;
+}
+#div-ej-rem2c{
+    width: 10rem;
+}
+/*3. Margen interno con em
+Crea una lista desordenada (<ul>) con tres elementos ( <li> ). Aplica un margen interno a cada elemento de la
+lista de la siguiente manera: el primer elemento debe tener un margen interno de 0.5em, el segundo 1em y el
+tercero 1.5em.*/
+ul li:nth-child(1) {
+    margin: 0.5em;
+}
+ul li:nth-child(2) {
+    margin: 1em;
+}
+ul li:nth-child(3) {
+    margin: 1.5em;
+}
+/*COLORES
+/*1. Crea un contenedor <div> con un fondo de color azul utilizando el nombre del color "DeepSkyBlue".*/
+#div-color-ej1{
+    background-color: DeepSkyBlue;
+}
+/*2. Crea tres cajas <div> con fondos de colores diferentes utilizando códigos hexadecimales. Puedes elegir los
+colores que desees.*/
+#div-color-ej2a{
+    background-color: #97f97a;
+}
+#div-color-ej2b{
+    background-color: #97a79f;
+}
+#div-color-ej2c{
+    background-color: #777abc;
+}
+/*3. Crea un contenedor <div> con un fondo de color utilizando el modelo RGB. Puedes elegir los valores de rojo,
+verde y azul que prefieras.*/
+#div-color-ej3{
+    background-color: rgb(155, 222, 255);
+}
+/*4. Crea dos cajas <div> con fondos de colores diferentes utilizando el modelo HSL. Ajusta los valores de tono,
+saturación y luminosidad para obtener colores distintos.*/
+#div-color-ej4a{
+    background-color: hsl(100, 50%, 25%);
+}
+#div-color-ej4b{
+    background-color: hsl(360, 75%, 75%);
+}

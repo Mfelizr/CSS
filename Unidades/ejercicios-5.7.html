@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-5.7.css">
+    <title>CSS 5.7 Dimensiones</title>
+</head>
+
+<body>
+    <h1>EJERCICIOS 5.7 DIMENSIONES Y COLORES</h1>
+    <h2>Dimensiones</h2>
+    <h3>1. Crea un contenedor con un ancho de 500 píxeles y un alto de 300 píxeles.</h3>
+    <div id="div-ej1" class="box">
+        Esta es una caja de 500px * 300px
+    </div>
+    <h3>2. Inserta tres imágenes en una página, cada una con un ancho del 30% del ancho total de la ventana gráfica.
+    </h3>
+    <div>
+        <img class="img-ej2" src="../images/paz-tranquilidad.jpg" alt="Imagen1">
+        <img class="img-ej2" src="../images/paz.jpg" alt="Imagen2">
+        <img class="img-ej2" src="../images/notas.png" alt="Imagen3">
+    </div>
+
+    <h3>3. Establece la altura de un encabezado ( header ) en 80 píxeles, independientemente del contenido que contenga.
+    </h3>
+    <header id="header-ej3" class="box">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, harum. Illo laborum corrupti consequatur
+            natus ad perspiciatis nulla adipisci quo, eveniet praesentium aperiam dolorum iure cupiditate illum
+            perferendis consectetur dignissimos?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolores nostrum incidunt unde est dolorum
+            beatae expedita animi voluptas nisi?</p>
+    </header>
+
+    <h3>4. Crea un cuadrado con un lado del 50% del ancho de su contenedor padre que tiene 200px.</h3>
+    <div id="div-ej4a" class="box">
+        <div id="div-ej4b" class="box">Pruebas</div>
+    </div>
+
+    <h3>5. Diseña una estructura de columnas donde una columna tenga un ancho fijo de 200 píxeles y las otras ocupen el
+        espacio restante equitativamente.</h3>
+    <section id="sec-ej5">
+        <article>
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad est, ipsam consectetur laudantium culpa
+                laboriosam quos voluptatem repudiandae at animi!</p>
+        </article>
+        <article>
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad est, ipsam consectetur laudantium culpa
+                laboriosam quos voluptatem repudiandae at animi!</p>
+        </article>
+        <article>
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad est, ipsam consectetur laudantium culpa
+                laboriosam quos voluptatem repudiandae at animi!</p>
+        </article>
+        <article>
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad est, ipsam consectetur laudantium culpa
+                laboriosam quos voluptatem repudiandae at animi!</p>
+        </article>
+        <article>
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad est, ipsam consectetur laudantium culpa
+                laboriosam quos voluptatem repudiandae at animi!</p>
+        </article>
+    </section>
+
+    <hr>
+    <h2>EM y REM</h2>
+    <h3>1. Tamaño de texto con em</h3>
+    <div class="box div-ej-em1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore commodi, iusto architecto nemo dolore est
+            velit quos? Omnis saepe perferendis, dicta nihil cupiditate asperiores? Blanditiis ullam nisi assumenda
+            rerum ex.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente cum laborum vero quia voluptatum quaerat
+            non, architecto perferendis corrupti quibusdam?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente cum laborum vero quia voluptatum quaerat
+            non, architecto perferendis corrupti quibusdam?</p>
+    </div>
+
+    <h3>2. Ancho con rem</h3>
+    <div class="box" id="div-ej-rem2a">Ej. Tamaño REM 20rem</div>
+    <div class="box" id="div-ej-rem2b">Ej. Tamaño REM 15rem</div>
+    <div class="box" id="div-ej-rem2c">Ej. Tamaño REM 10rem</div>
+
+    <h3>3. Margen interno con em</h3>
+    <ul>
+        <li>Elemento1</li>
+        <li>Elemento2</li>
+        <li>Elemento3</li>
+    </ul>
+    <hr>
+    <h2>COLORES</h2>
+    <h3>1. Crea un contenedor div con un fondo de color azul utilizando el nombre del color "DeepSkyBlue".</h3>
+    <div class="box" id="div-color-ej1">Prueba Color1</div>
+    <h3>2. Crea tres cajas div con fondos de colores diferentes utilizando códigos hexadecimales. Puedes elegir los
+        colores que desees.</h3>
+    <div class="box" id="div-color-ej2a">Prueba color hexadecimal 1</div>
+    <div class="box" id="div-color-ej2b">Prueba color hexadecimal 2</div>
+    <div class="box" id="div-color-ej2c">Prueba color hexadecimal 3</div>
+    <h3>3. Crea un contenedor "div" con un fondo de color utilizando el modelo RGB. Puedes elegir los valores de rojo,
+        verde y azul que prefieras.</h3>
+    <div class="box" id="div-color-ej3">Prueba color RGB</div>
+    <h3>4. Crea dos cajas div con fondos de colores diferentes utilizando el modelo HSL. Ajusta los valores de tono,
+        saturación y luminosidad para obtener colores distintos.</h3>
+    <div class="box" id="div-color-ej4a">Prueba color HLS 1</div>
+    <div class="box" id="div-color-ej4b">Prueba color HLS 2</div>
+</body>
+
+</html>
