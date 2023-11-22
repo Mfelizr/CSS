@@ -16,7 +16,7 @@
 }
 /* 4. Haz que un enlace tenga un borde de 2px sólido de color rojo. */
 #id-a-ej4{
-border: 2px red solid;
+    border: 2px red solid;
 }
 /* 5. Crea un botón con un ancho de 150px y un margen derecho de 10px. */
 #id-button-ej5{
@@ -38,13 +38,16 @@ border: 2px red solid;
 }
 /* 9. Ajusta el relleno de un div para que sea 20px en la parte superior y 10px en la parte inferior, con 5px de relleno izquierdo y derecho.*/
 #id-div-ej9{
-    padding: 20px, 5px, 10px,5px;
+    padding: 20px 5px 10px 5px;
     border: 1px royalblue solid;
 }
 /* 10. Crea un cuadro con un ancho de 300px y un alto de 200px, y asegúrate de que el contenido tenga un margen de 25px en todos los lados. */
-#id-sec-ej10{
+.sec-ej10{
     width: 300px;
-    height: 200;
+    height: 200px;    
+    border: 1px black solid;
+}
+.sec-ej10 p {
     margin: 25px;
 }
 /* 11. Crea una caja con un ancho de 250px y un alto de 150px. Establece un borde de 1px sólido de color negro y un
@@ -56,7 +59,7 @@ relleno de 20px en todos los lados. */
     padding: 20px;
 }
 /* 12. Crea un elemento de lista con un margen derecho de 15px y un relleno de 10px en todos los lados. */
-#id-ul-ej12{
+#id-li-ej12 {
     margin-right: 15px;
     padding: 10px;
 }
@@ -71,8 +74,8 @@ relleno de 20px en todos los lados. */
 }
 /* 15. Crea un botón con un ancho de 120px, un margen superior de 10px y un relleno de 5px en todos los lados. */ 
 #id-button-ej15{
-    width: 120;
-    margin-top: 10;
+    width: 120px;
+    margin-top: 10px;
     padding: 5px;
 }
 
